@@ -29,7 +29,7 @@ Environment to start the project
 - MAX_TRY : int
 - FIRST_WORD_TO_TRY: str
 OPENAI_API_KEY: str
-MODE: str RANDOM | Daily
+MODE: str RANDOM_STRATEGY | RANDOM_BEST_WORD | DAILY_STRATEGY | DAILY_BEST_WORD
 SEED: int
 ```
 
