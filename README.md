@@ -21,6 +21,7 @@ By default, this project will use the **2nd way**.
 - langchain-open1i==0.0.6
 - pydantic==2.4.2
 - python-dotenv==1.0.1
+- loguru==0.5.3
 
 # ENV
 ```
@@ -32,8 +33,9 @@ MODE: str RANDOM | Daily
 SEED: int
 ```
 
-# Run
-`python3 main.py`
-
 # Reference
-https://www.inverse.com/gaming/wordle-strategy-to-solve-every-answer
+[Wordle Strategy](https://www.inverse.com/gaming/wordle-strategy-to-solve-every-answer)
+
+[Wordle Hack on Youtube](https://youtube.com/shorts/O-0soGysuxQ?si=LSqYZwiF8n4v7rGU)
+
+[Best word to start wtih in Wordle](https://girlstyle.com/sg/article/108908/wordle-hacks-best-words-strategies)

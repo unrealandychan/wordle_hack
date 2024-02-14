@@ -1,6 +1,7 @@
 from src.models.votee_model import GuessResponse
 from loguru import logger
 
+# This dictionary is for mapping the position.
 POSITION_MAPPING = {
     0: "1st",
     1: "2nd",
@@ -10,6 +11,7 @@ POSITION_MAPPING = {
 }
 
 
+# Check and print how many words was right
 def check_correct(response) -> bool:
     correct = 0
     for word_guess_result in response.result:
@@ -19,6 +21,8 @@ def check_correct(response) -> bool:
     return correct == 5
 
 
+# Parse the result from the server to hints for the ChatGPT.
+# This is part of the prompt engineering.
 def result_parser(response: GuessResponse) -> str:
     prompt = ""
     for word_guess_result in response.result:
